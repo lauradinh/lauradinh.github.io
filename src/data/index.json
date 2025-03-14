@@ -1,0 +1,24 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "title": "Front-End",
+            "description": "Skilled in building dynamic and user-friendly interfaces using React, JavaScript, CSS, and HTML. Experienced in creating interactive web tools and custom applications to enhance user experiences."
+        },
+        {
+            "id": "2",
+            "title": "Back-End",
+            "description": "Proficient in Java, C, Python, C++, R, and Scala, with expertise in database management using SQLite and PostgreSQL. Experienced in building RESTful APIs and integrating backend systems to support seamless data processing."
+        },
+        {
+            "id": "3",
+            "title": "Data Analysis",
+            "description": "Adept at leveraging Power BI, Power Automate, and machine learning to drive data-driven insights. Developed interactive dashboards and automated classification models to enhance business efficiency and decision-making"
+        },
+        {
+            "id": "4",
+            "title": "Other",
+            "description": "Strong background in process management, workflow automation, and cross-functional collaboration. Experienced in Agile methodologies, IT service management, and problem-solving to drive efficiency and continuous improvement."
+        }
+    ]
+}
