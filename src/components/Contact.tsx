@@ -29,7 +29,9 @@ function Contact() {
 
       if (res.success) {
         setSubmissionStatus("success");
-        event.currentTarget.reset(); // Clear form after success
+        if (event.currentTarget) {
+          event.currentTarget.reset(); // Reset form after success
+        }
       } else {
         setSubmissionStatus("error");
       }
@@ -106,10 +108,10 @@ function Contact() {
             name="topic"
             className="contact-input text-md"
           >
-            <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
+            <option>General Inquiry</option>
+            <option>Collaborations/Partnerships</option>
+            <option>Job Opportunities</option>
+            <option>Other</option>
           </select>
         </label>
         <label htmlFor="message" className="contact-label">
